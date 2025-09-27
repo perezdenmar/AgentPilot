@@ -1,0 +1,16 @@
+# Minimal requirements for running AgentPilot in Codespace
+# These are core Python packages that are likely to be available
+
+# Core async support
+asyncio-mqtt
+uvicorn
+fastapi
+# Basic web dependencies
+requests
+json5
+# Basic data processing
+sqlite3
+
+# Note: Many dependencies from the original requirements.txt are 
+# locked to Python 3.10.11 and may not install in Python 3.12.3 codespace
+# This minimal set allows for basic functionality
